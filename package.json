@@ -1,0 +1,34 @@
+{
+  "name": "eth-signature-mark",
+  "version": "1.0.0",
+  "description": "Generates a visual marker which can be embedded in a PNG image and then later translated into an Ethereum signature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenmhunt/eth-signature-mark.git"
+  },
+  "keywords": [
+    "ethereum",
+    "crypto",
+    "cryptocurrency",
+    "blockchain",
+    "signature",
+    "steganography",
+    "png",
+    "image"
+  ],
+  "author": "Steven Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenmhunt/eth-signature-mark/issues"
+  },
+  "homepage": "https://github.com/stevenmhunt/eth-signature-mark#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "jimp": "^0.16.1",
+    "lodash": "^4.17.21"
+  }
+}
