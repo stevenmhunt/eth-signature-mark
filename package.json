@@ -1,8 +1,11 @@
 {
   "name": "eth-signature-mark",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generates a visual marker which can be embedded in a PNG image and then later translated into an Ethereum signature.",
-  "main": "index.js",
+  "main": "sigmark.js",
+  "bin": {
+    "eth-signature-mark": "./bin/eth-signature-mark.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +32,7 @@
   "dependencies": {
     "fs-extra": "^10.0.0",
     "jimp": "^0.16.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "mri": "^1.2.0"
   }
 }
