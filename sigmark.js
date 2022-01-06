@@ -39,7 +39,7 @@ function fillWithColor(color) {
  * @param {number} cellH The height of each cell in the mark (there are 5 cells down).
  * @returns The modified JIMP image object, or the file which was modified.
  */
-async function drawSignatureMark(imageObj, sig, startX = 3, startY = 3, cellW = 3, cellH = 3) {
+async function drawSignatureMark(imageObj, sig, startX = 6, startY = 6, cellW = 6, cellH = 6) {
     if (!imageObj) {
         throw new Error('Invalid image object.');
     }
@@ -100,7 +100,7 @@ async function drawSignatureMark(imageObj, sig, startX = 3, startY = 3, cellW = 
  * @param {number} cellH The height of each cell in the mark (there are 5 cells down).
  * @returns The encoded 65-Byte signature in the format 0x12345....
  */
-async function extractSignatureMark(imageObj, startX = 3, startY = 3, cellW = 3, cellH = 3) {
+async function extractSignatureMark(imageObj, startX = 6, startY = 6, cellW = 6, cellH = 6) {
     if (!imageObj) {
         throw new Error('Invalid image object.');
     }

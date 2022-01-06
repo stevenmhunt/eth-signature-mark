@@ -30,7 +30,7 @@ eth-signature-mark -v
 # create a signature mark on a new image (250x250)
 eth-signature-mark --create './newImage.png' $SIG 0,0,50,50
 
-# create a signature mark on an existing image (15x15)
+# create a signature mark on an existing image (30x30)
 eth-signature-mark --create './existingImage.png' $SIG
 
 # extract a signature mark from an image
@@ -51,7 +51,7 @@ const sig = '0x21fbf0696d5e0aa2ef41a2b4ffb623bcaf070461d61cf7251c74161f82fec3a43
 await drawSignatureMark('newImage.png' sig, 0, 0, 100, 100);)
 
 // write a signature mark on an existing file:
-// defaults to 3px by 3px cells starting at position (3, 3)
+// defaults to 6px by 6px cells starting at position (6, 6)
 await drawSignatureMark('existingImage.png', sig);
 
 // extract signature data from an existing image (also accepts x, y, width, height parameters).

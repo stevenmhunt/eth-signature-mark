@@ -1,6 +1,6 @@
 {
   "name": "eth-signature-mark",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generates a visual marker which can be embedded in a PNG image and then later translated into an Ethereum signature.",
   "main": "sigmark.js",
   "bin": {
